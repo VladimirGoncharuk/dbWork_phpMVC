@@ -1,0 +1,6 @@
+vendor/
+node_modules
+.eslintrc.json
+.prettierignore
+.prettirrc
+.package-lock.json

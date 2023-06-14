@@ -1,0 +1,19 @@
+{
+    "name": "sf/mvc_php",
+    "descripti on": "PHP_MVC_Project",
+    "type": "project",
+    "require": {
+        "gabordemooij/redbean": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app\\"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vladimir"
+        }
+    ],
+    "minimum-stability": "dev"
+}

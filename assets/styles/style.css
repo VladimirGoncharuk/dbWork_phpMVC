@@ -1,0 +1,65 @@
+
+body {
+    background-image: url("../../images/ground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+body * {
+    box-sizing: border-box;
+}
+
+.error {
+    height: 587px;
+    background-image: url("../../images/not_found.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img {
+    height: 600px;
+    width: 800px;
+
+}
+.comments_user:hover,
+.img:hover {
+    cursor: pointer;
+}
+.imges {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.comments {
+    position: fixed;
+    top: 250px;
+    right: 100px;
+}
+.commentsDelete {
+    position: fixed;
+    top: 150px;
+    right: 100px;
+}
+.containers {
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+
+}
+#main {
+    height: 50px;
+
+}
+.block_user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container label,
+.text {
+    color: bisque;
+}
